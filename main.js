@@ -15,7 +15,7 @@ function makeList(array)
         // if(content.important){
 
         // }
-        template.replace("{{question}}",content)
+       // template.replace("{{question}}",content)
         var li = document.createElement("li");
         var anchor = document.createElement("a");
         anchor.href = "#"
